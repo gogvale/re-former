@@ -1,1 +1,1 @@
-Rails.application.routes.draw { resources :users, only: %i[new create] }
+Rails.application.routes.draw { resources :users, except: :index }
